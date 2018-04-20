@@ -1,0 +1,18 @@
+{
+  "name": "oop-cats-and-slaves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node node_modules/selenium-cucumber-js/index.js -b phantomjs & exit 0",
+    "one-feature": "node node_modules/selenium-cucumber-js/index.js -b phantomjs -f ./features/creating-age.feature & exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "jsonflex": "^1.0.10",
+    "selenium-cucumber-js": "^1.5.12"
+  }
+}
