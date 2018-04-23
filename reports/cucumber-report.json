@@ -1,0 +1,126 @@
+[
+  {
+    "description": "\tAs a user of Systembolagets online shop \n\tIf I change my mind \n\tI want to be able to remove beverages from my shopping cart",
+    "elements": [
+      {
+        "id": "function-to-remove-items-from-the-shopping-cart;remove-the-beverages-from-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Remove the beverages from the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am a registrered user with a legal age",
+            "result": {
+              "status": "passed",
+              "duration": 371541
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there are 5 bottles of beverage with id 0 in my shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 187281
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there are 2 bottles of beverage with id 1 in my shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 306219
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there are 9 bottles of beverage with id 2 in my shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 292626
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the button Remove for beverages with id 1 and 2 in my cart",
+            "result": {
+              "status": "passed",
+              "duration": 252224
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "these beverages are removed",
+            "result": {
+              "status": "passed",
+              "duration": 561086
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "total ammount in the shopping cart is changed accordingly",
+            "result": {
+              "status": "passed",
+              "duration": 1187116
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\step-definitions\\remove-from-cart.feature.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1899131336
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\forge\\Desktop\\Systembolaget\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "function-to-remove-items-from-the-shopping-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Function to remove items from the shopping cart",
+    "tags": [],
+    "uri": "C:\\Users\\forge\\Desktop\\Systembolaget\\features\\remove-from-cart.feature"
+  }
+]

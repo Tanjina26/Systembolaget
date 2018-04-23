@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "node node_modules/selenium-cucumber-js/index.js -b phantomjs & exit 0",
-    "william-feature": "node node_modules/selenium-cucumber-js/index.js -b phantomjs -f ./features/create-search-function.feature & exit 0"
+    "william-feature": "node node_modules/selenium-cucumber-js/index.js -b phantomjs -f ./features/create-search-function.feature & exit 0",
+    "remove-from-cart": "node node_modules/selenium-cucumber-js/index.js -b phantomjs -f ./features/remove-from-cart.feature & exit 0"
   },
   "author": "",
   "license": "ISC",

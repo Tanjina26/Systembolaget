@@ -48,11 +48,18 @@ module.exports = class ShoppingCart {
 	}
 
 	sum(){
-		//how much does everething costs, would we like a line sum as well?
+    // how much does everything cost
+    // would we like a line sum as well?
 
-		//loop through thingsToBuy
-		//get the price of each product and multiply with the quantity
-		//gives us a line sum)
-		// add a line sums into a total sum
+    let totalAmmount = 0;
+    for (let thing of this.thingsToBuy){      
+      let ammountThing = thing.product.prisinklmoms * thing.quantity;
+      totalAmmount = totalAmmount + ammountThing;
+    }
+    return totalAmmount;     
+    // loop through thingsToBuy.
+    // get the price of each product and multiply with the quantity
+    // (gives us a line sum)
+    // add a line sums into a total sum
 	}
 }
