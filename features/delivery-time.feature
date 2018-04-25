@@ -1,4 +1,4 @@
-Feature: Create shooping-cart
+Feature: Delivery time in shoping-cart
 	As a user of Systembolagets online shop I want to be able to get correct information of delivery times, change quantity and remove products in the shopping-cart. I want to be able to see if any beverage in my shopping cart is out of stock. And when it will be available again
 
 	Scenario: A user want to see the delivery time of the beverages in the shopping cart
